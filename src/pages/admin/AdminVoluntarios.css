@@ -1,0 +1,76 @@
+.admin-voluntarios {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.admin-voluntarios-header {
+  margin-bottom: 24px;
+}
+
+.admin-voluntarios-header h2 {
+  margin: 0 0 8px 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.admin-subtitle {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.voluntarios-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.voluntario-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.voluntario-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.voluntario-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+  flex: 1;
+}
+
+.status-active {
+  color: #28a745;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.status-inactive {
+  color: #dc3545;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.voluntario-info {
+  margin-bottom: 16px;
+}
+
+.voluntario-info p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
+

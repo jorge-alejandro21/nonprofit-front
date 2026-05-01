@@ -1,0 +1,103 @@
+.admin-usuarios {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.admin-usuarios-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.admin-usuarios-header h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.admin-filtros {
+  display: flex;
+  gap: 12px;
+}
+
+.filtro-select {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.usuarios-table {
+  overflow-x: auto;
+}
+
+.usuarios-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.usuarios-table th {
+  background-color: #f8f9fa;
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.usuarios-table td {
+  padding: 12px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.rol-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.rol-donante {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+
+.rol-fundacion {
+  background-color: #f3e5f5;
+  color: #7b1fa2;
+}
+
+.rol-voluntariado {
+  background-color: #e8f5e9;
+  color: #388e3c;
+}
+
+.rol-super_administrador {
+  background-color: #fff3e0;
+  color: #e64a19;
+}
+
+.status-active {
+  color: #28a745;
+  font-weight: 600;
+}
+
+.status-inactive {
+  color: #dc3545;
+  font-weight: 600;
+}
+
+.acciones {
+  display: flex;
+  gap: 8px;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
+

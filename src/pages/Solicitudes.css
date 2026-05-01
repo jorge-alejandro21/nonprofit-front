@@ -1,0 +1,162 @@
+.solicitudes {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.solicitudes-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.solicitudes-header h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #333;
+}
+
+.solicitudes-filtros {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.solicitudes-filtros button {
+  background: none;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #666;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: all 0.2s;
+}
+
+.solicitudes-filtros button:hover {
+  color: #007bff;
+}
+
+.solicitudes-filtros button.active {
+  color: #007bff;
+  border-bottom-color: #007bff;
+  font-weight: 600;
+}
+
+.solicitudes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.solicitud-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.solicitud-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.solicitud-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.solicitud-badges {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.estado-badge {
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.estado-pendiente {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.estado-parcialmente_cubierta {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.estado-completada {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.estado-cancelada {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.prioridad-badge {
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.prioridad-gray {
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+.prioridad-yellow {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.prioridad-orange {
+  background-color: #ffeaa7;
+  color: #d63031;
+}
+
+.prioridad-red {
+  background-color: #fab1a0;
+  color: #c0392b;
+}
+
+.solicitud-descripcion {
+  color: #666;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.solicitud-info {
+  margin-bottom: 16px;
+}
+
+.solicitud-info p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.solicitud-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
+

@@ -1,0 +1,108 @@
+.admin-fundaciones {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.admin-fundaciones-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.admin-fundaciones-header h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.admin-filtros {
+  display: flex;
+  gap: 8px;
+}
+
+.admin-filtros button {
+  background: none;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #666;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.admin-filtros button:hover {
+  background-color: #f8f9fa;
+  color: #007bff;
+}
+
+.admin-filtros button.active {
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+}
+
+.fundaciones-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.fundacion-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.fundacion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.fundacion-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+  flex: 1;
+}
+
+.status-validated {
+  color: #28a745;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.status-pending {
+  color: #ffc107;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.fundacion-info {
+  margin-bottom: 16px;
+}
+
+.fundacion-info p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.fundacion-actions {
+  margin-top: auto;
+  padding-top: 16px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
+

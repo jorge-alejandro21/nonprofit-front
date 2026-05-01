@@ -1,0 +1,163 @@
+.notificaciones-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.notificaciones-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.notificaciones-header h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #333;
+}
+
+.notificaciones-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.notificaciones-filtros {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.notificaciones-filtros button {
+  background: none;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #666;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: all 0.2s;
+}
+
+.notificaciones-filtros button:hover {
+  color: #007bff;
+}
+
+.notificaciones-filtros button.active {
+  color: #007bff;
+  border-bottom-color: #007bff;
+  font-weight: 600;
+}
+
+.notificaciones-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.notificacion-item {
+  display: flex;
+  gap: 16px;
+  padding: 20px;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.notificacion-item.unread {
+  background-color: #e3f2fd;
+  border-left: 4px solid #007bff;
+}
+
+.notificacion-item:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notificacion-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+}
+
+.notificacion-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.notificacion-header-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.notificacion-header-item h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.btn-marcar-leida {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-marcar-leida:hover {
+  background: #0056b3;
+}
+
+.notificacion-content p {
+  margin: 8px 0;
+  color: #666;
+  line-height: 1.5;
+}
+
+.notificacion-fecha {
+  font-size: 12px;
+  color: #999;
+}
+
+.notificacion-delete-btn {
+  background: none;
+  border: none;
+  color: #999;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s;
+  flex-shrink: 0;
+}
+
+.notificacion-delete-btn:hover {
+  color: #dc3545;
+}
+
+.notificaciones-empty {
+  padding: 60px 20px;
+  text-align: center;
+  color: #999;
+}
+
+.notificaciones-empty p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
+

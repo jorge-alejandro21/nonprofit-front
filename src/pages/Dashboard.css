@@ -1,0 +1,42 @@
+.dashboard h1 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-subtitle {
+  color: #7f8c8d;
+  margin-bottom: 2rem;
+}
+
+.dashboard-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.stat-card {
+  text-align: center;
+}
+
+.stat-card h3 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #3498db;
+  margin: 1rem 0;
+}
+
+.stat-description {
+  color: #7f8c8d;
+  margin-bottom: 1rem;
+}
+
+.stat-card a {
+  text-decoration: none;
+}
+

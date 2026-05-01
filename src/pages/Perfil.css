@@ -1,0 +1,108 @@
+.perfil {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.perfil h1 {
+  margin-bottom: 24px;
+  font-size: 28px;
+  color: #333;
+}
+
+.perfil-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 24px;
+}
+
+.perfil-info-card,
+.perfil-edit-card {
+  padding: 24px;
+}
+
+.perfil-info-card h2,
+.perfil-edit-card h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #333;
+}
+
+.perfil-info p {
+  margin: 12px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.status-validated {
+  color: #28a745;
+  font-weight: 600;
+}
+
+.status-pending {
+  color: #ffc107;
+  font-weight: 600;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+textarea.input {
+  resize: vertical;
+  font-family: inherit;
+}
+
+.form-actions {
+  margin-top: 24px;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .perfil-container {
+    grid-template-columns: 1fr;
+  }
+}
+
