@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { useNotifications } from '@contexts/NotificationContext';
-import { Notificacion } from '@types/index';
 import { Card } from '@components/common/Card';
 import { Button } from '@components/common/Button';
 import './Notificaciones.css';

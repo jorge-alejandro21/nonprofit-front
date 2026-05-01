@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '@contexts/AuthContext';
 import { donacionesService } from '@services/donacionesService';
-import { Donacion } from '@types/index';
+import type { Donacion } from '@app-types/index';
 import { Card } from '@components/common/Card';
 import { Button } from '@components/common/Button';
 import { ROUTES, TIPOS_ARTICULOS } from '@utils/constants';

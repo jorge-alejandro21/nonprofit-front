@@ -1,4 +1,4 @@
-import { User, Donante, Fundacion } from './index';
+import type { RegistroForm, User } from './index';
 
 // Contexto de autenticación
 export interface AuthContextType {
@@ -6,7 +6,7 @@ export interface AuthContextType {
   isAuthenticated: boolean;
   isLoading: boolean;
   login: (email: string, password: string) => Promise<void>;
-  register: (formData: any) => Promise<void>;
+  register: (formData: RegistroForm) => Promise<void>;
   logout: () => void;
   updateUser: (userData: Partial<User>) => Promise<void>;
 }

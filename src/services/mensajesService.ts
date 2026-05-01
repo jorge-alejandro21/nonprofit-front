@@ -1,5 +1,5 @@
 import api from './api';
-import { Mensaje } from '@types/index';
+import type { Mensaje } from '@app-types/index';
 
 export const mensajesService = {
   // Obtener mensajes

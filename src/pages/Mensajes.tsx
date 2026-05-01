@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useAuth } from '@contexts/AuthContext';
 import { mensajesService } from '@services/mensajesService';
-import { Mensaje } from '@types/index';
+import type { Mensaje } from '@app-types/index';
 import { Card } from '@components/common/Card';
 import { Button } from '@components/common/Button';
 import { formatDate } from '@utils/formatDate';

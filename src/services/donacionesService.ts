@@ -1,5 +1,5 @@
 import api from './api';
-import { Donacion, SolicitudDonacion, Emparejamiento } from '@types/index';
+import type { Donacion, SolicitudDonacion, Emparejamiento } from '@app-types/index';
 
 export const donacionesService = {
   // Obtener todas las donaciones

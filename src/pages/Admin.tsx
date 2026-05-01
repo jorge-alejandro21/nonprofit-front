@@ -1,4 +1,4 @@
-import { Routes, Route, NavLink, useLocation } from 'react-router-dom';
+import { Routes, Route, NavLink } from 'react-router-dom';
 import { AdminUsuarios } from './admin/AdminUsuarios';
 import { AdminFundaciones } from './admin/AdminFundaciones';
 import { AdminVoluntarios } from './admin/AdminVoluntarios';
@@ -7,8 +7,6 @@ import { ROUTES } from '@utils/constants';
 import './Admin.css';
 
 export const Admin = () => {
-  const location = useLocation();
-
   return (
     <div className="admin">
       <div className="admin-header">

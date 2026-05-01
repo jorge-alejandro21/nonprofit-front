@@ -1,5 +1,5 @@
 import api from './api';
-import { Notificacion, NotificacionesResponse } from '@types/index';
+import type { Notificacion, NotificacionesResponse } from '@app-types/index';
 
 export const notificacionesService = {
   // Obtener notificaciones

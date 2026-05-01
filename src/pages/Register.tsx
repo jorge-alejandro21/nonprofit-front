@@ -5,7 +5,7 @@ import { ROUTES } from '@utils/constants';
 import { Card } from '@components/common/Card';
 import { Input } from '@components/common/Input';
 import { Button } from '@components/common/Button';
-import { RegistroForm } from '@types/index';
+import type { RegistroForm } from '@app-types/index';
 import './Register.css';
 
 export const Register = () => {

@@ -1,5 +1,5 @@
 import api from './api';
-import { ReporteImpacto } from '@types/index';
+import type { ReporteImpacto } from '@app-types/index';
 
 export const reportesService = {
   // Obtener reporte de impacto

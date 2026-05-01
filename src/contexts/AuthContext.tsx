@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import { User, LoginForm, RegistroForm } from '@types/index';
-import { AuthContextType } from '@types/contexts';
+import type { User, RegistroForm } from '@app-types/index';
+import type { AuthContextType } from '@app-types/contexts';
 import { authService } from '@services/authService';
 import { storage } from '@utils/storage';
 

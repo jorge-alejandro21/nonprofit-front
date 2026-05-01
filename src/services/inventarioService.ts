@@ -1,5 +1,5 @@
 import api from './api';
-import { InventarioItem } from '@types/index';
+import type { InventarioItem } from '@app-types/index';
 
 export const inventarioService = {
   // Obtener inventario

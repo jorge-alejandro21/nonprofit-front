@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useAuth } from '@contexts/AuthContext';
 import { inventarioService } from '@services/inventarioService';
-import { InventarioItem } from '@types/index';
+import type { InventarioItem } from '@app-types/index';
 import { Card } from '@components/common/Card';
 import { Button } from '@components/common/Button';
 import { TIPOS_ARTICULOS } from '@utils/constants';

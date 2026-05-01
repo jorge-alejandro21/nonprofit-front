@@ -6,7 +6,7 @@ import { Card } from '@components/common/Card';
 import { Input } from '@components/common/Input';
 import { Button } from '@components/common/Button';
 import { ROUTES, TIPOS_ARTICULOS, ESTADOS_ARTICULO } from '@utils/constants';
-import { Donacion, TipoArticulo } from '@types/index';
+import type { TipoArticulo } from '@app-types/index';
 import './CrearDonacion.css';
 
 export const CrearDonacion = () => {

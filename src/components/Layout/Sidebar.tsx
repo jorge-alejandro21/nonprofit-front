@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useAuth } from '@contexts/AuthContext';
 import { ROUTES } from '@utils/constants';
-import { UserRole } from '@types/index';
+import type { UserRole } from '@app-types/index';
 import './Sidebar.css';
 
 interface MenuItem {

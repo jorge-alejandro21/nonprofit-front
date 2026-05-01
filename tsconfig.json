@@ -30,7 +30,7 @@
       "@contexts/*": ["./src/contexts/*"],
       "@hooks/*": ["./src/hooks/*"],
       "@utils/*": ["./src/utils/*"],
-      "@types/*": ["./src/types/*"]
+      "@app-types/*": ["./src/types/*"]
     }
   },
   "include": ["src"],

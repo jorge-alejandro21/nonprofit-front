@@ -6,7 +6,7 @@ import { Card } from '@components/common/Card';
 import { Input } from '@components/common/Input';
 import { Button } from '@components/common/Button';
 import { ROUTES, TIPOS_ARTICULOS, PRIORIDADES_SOLICITUD } from '@utils/constants';
-import { TipoArticulo } from '@types/index';
+import type { TipoArticulo } from '@app-types/index';
 import './CrearSolicitud.css';
 
 export const CrearSolicitud = () => {

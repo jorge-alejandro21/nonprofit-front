@@ -1,6 +1,4 @@
 import { Link } from 'react-router-dom';
-import { useAuth } from '@contexts/AuthContext';
-import { ROUTES } from '@utils/constants';
 import { Button } from '@components/common/Button';
 import './Home.css';
 
@@ -27,8 +25,6 @@ const fundaciones = [
 ];
 
 export const Home = () => {
-  const { isAuthenticated } = useAuth();
-
   return (
     <div className="home">
       <section className="hero">

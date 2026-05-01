@@ -1,5 +1,13 @@
 import api from './api';
-import { SolicitudDonacion } from '@types/index';
+import type { SolicitudDonacion } from '@app-types/index';
+
+/** Cuerpo enviado al crear una solicitud (el backend asigna estado y cantidad recibida). */
+export type CrearSolicitudPayload = Pick<
+  SolicitudDonacion,
+  'fundacionId' | 'tipoArticulo' | 'descripcion' | 'cantidadNecesaria' | 'prioridad'
+> & {
+  fechaLimite?: Date;
+};
 
 export const solicitudesService = {
   // Obtener todas las solicitudes
@@ -19,7 +27,7 @@ export const solicitudesService = {
   },
 
   // Crear solicitud
-  crearSolicitud: async (solicitud: Omit<SolicitudDonacion, 'id' | 'fechaCreacion'>): Promise<SolicitudDonacion> => {
+  crearSolicitud: async (solicitud: CrearSolicitudPayload): Promise<SolicitudDonacion> => {
     const response = await api.post<SolicitudDonacion>('/solicitudes', solicitud);
     return response.data;
   },

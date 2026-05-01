@@ -1,5 +1,5 @@
 import api from './api';
-import { User } from '@types/index';
+import type { User } from '@app-types/index';
 
 export const adminService = {
   // Obtener todos los usuarios

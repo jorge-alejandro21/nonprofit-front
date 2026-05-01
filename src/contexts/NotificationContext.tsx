@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, useEffect, ReactNode, useCallback } from 'react';
-import { Notificacion } from '@types/index';
+import type { Notificacion } from '@app-types/index';
 import { notificacionesService } from '@services/notificacionesService';
 import { useAuth } from './AuthContext';
 

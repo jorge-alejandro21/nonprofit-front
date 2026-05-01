@@ -1,5 +1,5 @@
 import api from './api';
-import { AuthResponse, LoginForm, RegistroForm, User } from '@types/index';
+import type { AuthResponse, LoginForm, RegistroForm, User } from '@app-types/index';
 
 // Credenciales de ejemplo para desarrollo
 const CREDENCIALES_EJEMPLO: Record<string, { user: User; password: string }> = {

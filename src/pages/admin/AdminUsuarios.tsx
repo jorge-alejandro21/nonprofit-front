@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { adminService } from '@services/adminService';
-import { User } from '@types/index';
-import { Card } from '@components/common/Card';
+import type { User } from '@app-types/index';
 import { Button } from '@components/common/Button';
 import { formatDate } from '@utils/formatDate';
 import './AdminUsuarios.css';
